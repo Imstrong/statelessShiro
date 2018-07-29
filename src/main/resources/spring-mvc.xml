@@ -11,6 +11,6 @@
         <property name="prefix" value="/WEB-INF/page"/>
         <property name="suffix" value=".jsp"/>
     </bean>
-    <!--<mvc:annotation-driven/>-->
-    <!--<mvc:resources mapping="/**/*.jsp" location="/WEB-INF/page/**" />-->
+    <mvc:annotation-driven/>
+    <mvc:resources mapping="/img/**" location="/static/img/" />
 </beans>
